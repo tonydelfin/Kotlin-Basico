@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+
+            <corners
+                android:topRightRadius="@dimen/text_radius"
+                android:bottomLeftRadius="@dimen/text_radius"/>
+
+            <gradient android:type="radial"
+                android:endColor="@color/purple_700"
+                android:startColor="@color/purple_200"
+                android:gradientRadius="80%"
+                android:centerX=".5"
+                android:centerY=".5"
+                />
+            <stroke
+                android:width="@dimen/button_stroke"
+                android:color="@color/black"
+                />
+            <size
+                android:width="@dimen/text_size"
+                android:height="@dimen/text_size"/>
+
+            <padding
+                android:right="@dimen/common_padding_min"
+                android:left="@dimen/common_padding_min"
+                android:top="@dimen/common_padding_min"
+                android:bottom="@dimen/common_padding_min"
+                />
+            <!--<solid android:color="@color/white"/>-->
+        </shape>
+    </item>
+
+</selector>
